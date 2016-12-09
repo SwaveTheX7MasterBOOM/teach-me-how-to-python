@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	
+		<meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	  <meta name="description" content="">
+	  <meta name="author" content="">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="true" />
+		
+		<title>School Of Technomancy</title>
+		
+		<link rel="stylesheet" href="bootstrap-3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="bootstrap-3.3.5/css/bootstrap-theme.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="bootstrap-3.3.5/js/bootstrap.min.js"></script>
+		
+		
+		
+		
+		
+		<style>
+	
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+body {
+	
+		    background-image:url(images/sign-in.jpg);
+    background-repeat:no-repeat;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+		
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+}
+
+.container {
+    padding: 25px;
+    position: fixed;
+}
+
+.form-login {
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+h4 { 
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+		
+		.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.borderimg { 
+    border: 25px solid transparent;
+    padding: 25px;
+    -webkit-border-image: url(images/frame.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(images/frame.png) 30 stretch; /* Opera 11-12.1 */
+   /* border-image: url(images/frame.png) 30 stretch;*/
+	
+	
+	background-image:url(images/Background-Texbox.jpg);
+    background-repeat:repeat;
+	background-clip: padding-box;
+	
+
+}
+
+
+
+
+
+		</style>
+		
+		
+		
+</head>
+    
+    
+    
+    <body>
+        
+
+<!--Pulling Awesome Font -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="container">
+    <div class="row">
+        <div class="centered borderimg">
+            <div class="form-login">
+            <h4>Welcome TechnoMage.</h4>
+            <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="username" />
+            </br>
+            <input type="password" id="userPassword" class="form-control input-sm chat-input" placeholder="password" />
+            </br>
+            <div class="wrapper">
+            <span class="group-btn">     
+                <a href="#" class="btn btn-primary btn-md" id = "log" >login <i class="fa fa-sign-in"></i></a>
+            </span>
+            </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+	
+
+
+		 <script type="text/javascript">
+		 
+	$(document).ready(function() {
+    $("#log").click(function(){
+	
+		location.href = "mainMenu.html";
+		
+    }); 
+});
+		 
+		 </script>
+        
+    </body>
+    
+    
+    
+</html> 

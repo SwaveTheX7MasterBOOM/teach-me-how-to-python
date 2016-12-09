@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	
+		<meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	  <meta name="description" content="">
+	  <meta name="author" content="">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="true" />
+		
+		<title>School Of Technomancy</title>
+		
+		<link rel="shortcut icon" href="images/browserTab.png">
+		
+		<link rel="stylesheet" href="bootstrap-3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="bootstrap-3.3.5/css/bootstrap-theme.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="bootstrap-3.3.5/js/bootstrap.min.js"></script>
+		
+		<script type="text/javascript" src="phaser-2.4.3/build/phaser.min.js"></script>
+		<script type="text/javascript" src="js/bootMenu.js"></script>
+		<script type="text/javascript" src="js/loadMenu.js"></script>
+		<script type="text/javascript" src="js/menu.js"></script>
+		<script type="text/javascript" src="js/gameMenu.js"></script>
+		
+	<style>	
+		
+		body{
+		    background-image:url(images/Background-Webpage.jpg);
+    background-repeat:repeat;
+		}
+		
+		
+		@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
+	.navbar {
+    margin-bottom: 0 !important;
+}
+
+.navbar-brand-centered{padding:0;}
+
+
+		.navbar-default{
+ background-image:url(images/navBack.png);
+
+}
+
+
+
+
+	
+* { margin:0; padding:0; } /* to remove the top and left whitespace */
+
+/*html, body { width:100%; height:100%; }*/ /* just to be sure these are full screen*/
+
+canvas { display:block; } /* To remove the scrollbars */
+		
+	</style>	
+		
+</head>
+
+<body>
+    
+<nav class="navbar navbar-default" role="navigation">
+    	  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		         
+			  <a class="navbar-brand navbar-brand-centered" href="mainMenu.html">
+                    <img src="images/Logo.png"  alt="Coding is Magic">
+                </a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a id = "cls" href="classRoom.html"><span class="glyphicon glyphicon-education"></span> Class Room</a></li>
+		        <li><a id = "gym" href="arena.html"> <span class="glyphicon glyphicon-fire"></span> Arena</a></li>
+		        <li><a id = "lib" href="library.html"> <span class="glyphicon glyphicon-book"></span> Library</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#"> <span class="glyphicon glyphicon-user"></span> Account</a></li>
+		        <li><a href="#"> <span class="glyphicon glyphicon-off"></span> Sign Out</a></li>
+		       		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+        
+ 
+    
+    
+    
+    
+    <div class="container-fluid">
+      <div class="row">
+        
+
+		
+						<div id="gameDiv"> </div>
+				<p class="hiddenText"> . </p>
+		
+		
+
+      </div> <!-- /row -->
+    </div>
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+</body>
+
+</html>
